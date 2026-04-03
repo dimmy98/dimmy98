@@ -48,7 +48,6 @@
 
 ### 🏥 Project 1 — Healthcare ML Pipeline
 [![Repo](https://img.shields.io/badge/GitHub-Repo-2DD4BF?style=for-the-badge&logo=github)](https://github.com/dimmy98/Developing-Evaluating-ML-for-HealthCare)
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-2DD4BF?style=for-the-badge)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 [![View Dashboard](https://img.shields.io/badge/📊%20View%20Dashboard-Open%20Now-20c997?style=for-the-badge)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 
 </div>
