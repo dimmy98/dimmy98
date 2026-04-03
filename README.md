@@ -15,14 +15,7 @@
 <img src="https://komarev.com/ghpvc/?username=dimmy98&label=Profile+Views&color=2dd4bf&style=flat" alt="Profile views" />
 
 </div>
----
-## ⭐ Stargazers Over Time
 
-<div align="center">
-
-[![Stargazers over time](https://starchart.cc/dimmy98/Developing-Evaluating-ML-for-HealthCare.svg)](https://starchart.cc/dimmy98/Developing-Evaluating-ML-for-HealthCare)
-
-</div>
 ---
 
 ## 👨‍💻 About Me
