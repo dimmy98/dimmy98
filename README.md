@@ -47,7 +47,7 @@
 
 ### 🏥 Project 1 — Developing & Evaluating ML for HealthCare
 [![Repo](https://img.shields.io/badge/GitHub-Repo-2DD4BF?style=for-the-badge&logo=github)](https://github.com/dimmy98/Developing-Evaluating-ML-for-HealthCare)
-[![Live Dashboard](https://img.shields.io/badge/Dashboard-2DD4BF?style==flat-square)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
+[![Live Dashboard](https://img.shields.io/badge/Dashboard-3DD4BF?style==flat-square)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 
 </div>
 
