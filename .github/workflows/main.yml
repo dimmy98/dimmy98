@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *" # Every 12 hours
   workflow_dispatch:
   push:
     branches:
@@ -12,32 +12,29 @@ permissions:
   contents: write
 
 jobs:
-  build-snake:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Generate snake
-        uses: Platane/snk@master
+      # Generate the snake files using a stable version
+      - name: Generate Snake
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: dimmy98
-          gif_out_path: dist/github-contribution-grid-snake.gif
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Configure git
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          
+      # Push the generated files to the output branch
       - name: Push to output branch
-        run: |
-          git fetch origin
-          git checkout output 2>/dev/null || git checkout -b output
-          cp dist/github-contribution-grid-snake.gif ./
-          cp dist/github-contribution-grid-snake.svg ./
-          git add github-contribution-grid-snake.gif github-contribution-grid-snake.svg
-          git commit -m "🐍 Update snake animation" --allow-empty
-          git push origin output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
