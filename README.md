@@ -16,12 +16,6 @@
 
 </div>
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=2DD4BF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=Data+Analyst+%40+Rolls-Royce+%F0%9F%9A%80;Building+AI-Powered+Systems;Python+%7C+SQL+%7C+PyTorch+%7C+Azure)](https://git.io/typing-svg)
-
-</div>
-
 ---
 
 ## 👨‍💻 About Me
