@@ -263,9 +263,11 @@
 
 ## 🐍 My Contributions Snake
 
-<div align="center">
-  <img src="https://github.com/dimmy98/dimmy98/raw/output/github-contribution-grid-snake.gif" alt="snake contribution graph" width="100%"/>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dimmy98/dimmy98/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dimmy98/dimmy98/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dimmy98/dimmy98/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
