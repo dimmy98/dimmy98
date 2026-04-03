@@ -41,6 +41,8 @@
 💬  "Thanks for visiting! Let's build something amazing with data 🚀"
 ```
 
+<div align="center">
+     
 ## 🏆 Featured Projects
 
 <div align="center">
