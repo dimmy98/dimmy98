@@ -1,40 +1,36 @@
-name: Generate Snake
-
+name: Generate 3D Contribution Graph
+ 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Every 12 hours
+    - cron: "0 0 * * *" # Every day at midnight
   workflow_dispatch:
   push:
     branches:
       - main
-
+ 
 permissions:
   contents: write
-
+ 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     
     steps:
-      # Checkout the repository
       - name: Checkout
         uses: actions/checkout@v4
-
-      # Generate the snake files using a stable version
-      - name: Generate Snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: dimmy98
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      # Push the generated files to the output branch
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+        
+      - name: Generate 3D Graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: dimmy98
+          
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+      - name: Commit and Push
+        run: |
+          git add -A .
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🎨 Update 3D contribution graph" && git push)
