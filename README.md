@@ -19,33 +19,25 @@
 
 ## 👨‍💻 About Me
 
-```python
-class DhimanKumar:
-    def __init__(self):
-        self.name        = "Dhiman Kumar"
-        self.role        = "Data Analyst @ Rolls-Royce Aerospace (via Expleo Group)"
-        self.education   = "MSc Data Analytics — University of Sheffield (Merit, 2024)"
-        self.location    = "Derby, UK 🇬🇧"
-        self.experience  = "3+ years Software Engineering + Data Analytics"
-        self.languages   = ["Python", "SQL", "R", "C"]
-        self.ml_stack    = ["PyTorch", "TensorFlow", "scikit-learn", "EfficientNet"]
-        self.cloud       = ["Microsoft Azure (AZ-900 + AZ-104)", "AWS", "Azure Synapse"]
-        self.tools       = ["Power BI", "ServiceNow", "Spark", "Jupyter", "VS Code"]
-        self.currently   = "Predictive maintenance + SQL pipelines for jet engines ✈️"
-        self.certifications = 9  # and counting!
+```
+👤  Name          :  Dhiman Kumar
+💼  Role          :  Data Analyst @ Rolls-Royce Aerospace (via Expleo Group)
+🎓  Education     :  MSc Data Analytics — University of Sheffield (Merit, 2024)
+📍  Location      :  Derby, UK 🇬🇧
+💻  Experience    :  3+ years in Software Engineering & Data Analytics
+🐍  Languages     :  Python  |  SQL  |  R  |  C
+🤖  ML Stack      :  PyTorch  |  TensorFlow  |  scikit-learn  |  EfficientNet
+☁️  Cloud         :  Microsoft Azure (AZ-900 + AZ-104)  |  AWS  |  Azure Synapse
+🛠️  Tools         :  Power BI  |  ServiceNow  |  Spark  |  Jupyter  |  VS Code
+✈️  Currently     :  Predictive maintenance + SQL pipelines for jet engines
+🏅  Certificates  :  9 professional certificates (and counting!)
 
-    def impact(self):
-        return {
-            "SQL Optimisation":        "↓ 30% processing time",
-            "Predictive Maintenance":  "↓ 15% unplanned downtime",
-            "ServiceNow Automation":   "↓ 25% resolution time",
-        }
+📊  My Impact at Rolls-Royce:
+     ✅  SQL Optimisation          →  ↓ 30% processing time
+     ✅  Predictive Maintenance    →  ↓ 15% unplanned downtime
+     ✅  ServiceNow Automation     →  ↓ 25% resolution time
 
-    def say_hi(self):
-        print("Thanks for visiting! Let's build something amazing with data 🚀")
-
-me = DhimanKumar()
-me.say_hi()
+💬  "Thanks for visiting! Let's build something amazing with data 🚀"
 ```
 
 ---
@@ -87,8 +79,7 @@ me.say_hi()
 </div>
 
 > **MSc Team Project — University of Sheffield (Feb 2024 – May 2024)**
-> HMS Kaggle Competition — Deep learning EEG seizure classification. Team Golf, 6 members.
-> Supervisor: Professor Georgios Moulantziko
+> HMS Kaggle Competition — Deep learning EEG seizure classification. Supervisor: Prof. Georgios Moulantziko
 
 | Model | Feature Set | CV Score (KL Loss ↓) | Result |
 |-------|-------------|----------------------|--------|
@@ -99,7 +90,7 @@ me.say_hi()
 **Key Highlights:**
 - 🧠 Classified **6 types** of harmful brain activity (Seizure, LPD, GPD, LRDA, GRDA, Other)
 - 📉 Two-stage training reduced KL loss by **2.1%** (1.2792 → 1.2527)
-- 🌊 Multi-modal: Spectrograms, EEG signals, Discrete Wavelet Transforms
+- 🌊 Multi-modal features: Spectrograms, EEG signals, Discrete Wavelet Transforms
 - 💡 Discovery: Spectrograms alone outperformed all multi-modal combinations
 
 `PyTorch` `EfficientNet` `EEG` `KLDivLoss` `AdamW` `OneCycleLR` `Kaggle`
@@ -108,49 +99,55 @@ me.say_hi()
 
 ## 💼 Work Experience
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────┐
-│  🚀  Data Analyst @ Rolls-Royce Aerospace (Expleo Group)    Jan 2025 – Present  │
-│       Derby, UK                                                                  │
-│       ✅ SQL optimisation → ↓30% processing time                                │
-│       ✅ Predictive maintenance analytics → ↓15% unplanned downtime             │
-│       ✅ ServiceNow automation → ↓25% resolution time                           │
-│       ✅ Python automation tool for serial/part number validation                │
-│       ✅ Data validation + reporting pipelines for maintenance dashboards        │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  🔧  Data Engineer Apprenticeship @ Makutu.io               Oct 2024 – Dec 2024 │
-│       Derby, UK                                                                  │
-│       ✅ Power BI dashboards with Azure Synapse + OpenAI integration            │
-│       ✅ ML models for complex dataset interpretation                            │
-│       ✅ Service Desk Plus ticketing tool automation                             │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  🎓  AI/ML & Speech Internship @ University of Sheffield    Jul 2024 – Oct 2024 │
-│       Sheffield, UK                                                              │
-│       ✅ Evaluated SSL models with SUPERB benchmark                             │
-│       ✅ Enhanced Python code using s3prl library                               │
-│       ✅ Optimised local data storage to reduce processing times                │
-├─────────────────────────────────────────────────────────────────────────────────┤
-│  💻  Intermediate Software Engineer @ DXC Technology        Jan 2021 – Jul 2023 │
-│       India                                                                      │
-│       ✅ Customised data restoration & backup recovery plans                    │
-│       ✅ VMware backup configuration & SLA management                           │
-│       ✅ Predictive analytics for critical data protection                       │
-│       ✅ Server testing & backup infrastructure reliability                      │
-└─────────────────────────────────────────────────────────────────────────────────┘
-```
+### 🚀 Data Analyst — Rolls-Royce Aerospace (via Expleo Group)
+📅 January 2025 – Present &nbsp;&nbsp;|&nbsp;&nbsp; 📍 Derby, UK
+
+- ✅ Compared engine usage & maintenance records across multiple systems, improving data accuracy & compliance reporting
+- ✅ Wrote and optimised SQL queries to extract, clean & combine large datasets — **reduced processing time by 30%**
+- ✅ Analysed engine parts performance & wear trends to highlight risks early — **reduced unplanned downtime by 15%**
+- ✅ Automated incident handling using ServiceNow — **reduced resolution time by 25%**
+- ✅ Built and maintained data validation & reporting pipelines for operational dashboards
+- ✅ Developed Python automation tool for serial/part number validation — reducing manual effort significantly
+
+---
+
+### 🔧 Data Engineer Apprenticeship — Makutu.io
+📅 October 2024 – December 2024 &nbsp;&nbsp;|&nbsp;&nbsp; 📍 Derby, UK
+
+- ✅ Developed and implemented Power BI dashboards for data visualisation and decision-making
+- ✅ Used Python with Microsoft Azure Synapse and OpenAI to streamline data extraction into Power BI
+- ✅ Engineered ML models to analyse and interpret complex datasets
+- ✅ Automated processes and managed Service Desk Plus ticketing tool
+
+---
+
+### 🎓 AI / Machine Learning & Speech Internship — University of Sheffield
+📅 July 2024 – October 2024 &nbsp;&nbsp;|&nbsp;&nbsp; 📍 Sheffield, UK
+
+- ✅ Evaluated SSL models with SUPERB benchmark to boost speech processing capabilities
+- ✅ Enhanced Python code using the s3prl library, improving model efficiency
+- ✅ Optimised workflows by implementing local data storage strategies
+
+---
+
+### 💻 Intermediate Software Engineer — DXC Technology
+📅 January 2021 – July 2023 &nbsp;&nbsp;|&nbsp;&nbsp; 📍 India
+
+- ✅ Developed and executed customised data restoration & backup recovery plans
+- ✅ Configured and managed VMware backups with SLA breach management
+- ✅ Applied predictive analytics to ensure protection of critical data
+- ✅ Resolved discrepancies between centralised backup systems and client servers
 
 ---
 
 ## 🎓 Education
 
-```
-🏛️  University of Sheffield                          Sep 2023 – Sep 2024
-    MSc Data Analytics                               Graduated: MERIT ⭐
-    Department of Computer Science
-    └── Dissertation: ML for Healthcare Billing Prediction (R² = 0.8641)
-    └── Team Project: Harmful Brain Activity Classification (CV = 1.2527)
-    └── Internship: AI/ML & Speech Processing Research
-```
+### 🏛️ University of Sheffield — MSc Data Analytics
+📅 September 2023 – September 2024 &nbsp;&nbsp;|&nbsp;&nbsp; 🏆 **Graduated: MERIT**
+
+- 📝 **Dissertation:** ML Models for Healthcare Billing Prediction (Best R² = 0.8641)
+- 🧠 **Team Project:** Harmful Brain Activity Classification using EfficientNet (CV = 1.2527)
+- 🔬 **Internship:** AI/ML & Speech Processing Research
 
 ---
 
@@ -158,25 +155,23 @@ me.say_hi()
 
 <div align="center">
 
-| Badge | Certification | Issuer | Date |
-|-------|--------------|--------|------|
-| 🔷 | **Microsoft Certified: Azure Administrator Associate (AZ-104)** | Microsoft | Feb 2023 |
-| 🔵 | **Microsoft Certified: Azure Fundamentals (AZ-900)** | Microsoft | May 2021 |
-| 🔴 | **Google Data Analytics Professional Certificate** | Google / Coursera | Aug 2022 |
-| 🐍 | **Python Essential Training** | LinkedIn Learning | Aug 2022 |
-| 📊 | **Learning Excel: Data Analysis** | LinkedIn Learning | Aug 2022 |
-| 🖥️ | **System Administration: Backup & Recovery** | LinkedIn Learning | Aug 2022 |
-| 📈 | **Custom Reports in Google Analytics** | Coursera | Jul 2022 |
-| 📉 | **Getting Started in Google Analytics** | Coursera | Jul 2022 |
-| 🟡 | **Tableau for Data Science** | *(In Progress)* | 2024 |
-| ☁️ | **AWS Cloud Practitioner** | Amazon | — |
-| 🔧 | **Google: Technical Support Fundamentals** | Google | — |
+| 🏅 Certificate | 🏢 Issuer | 📅 Date | 🔢 Cert Number |
+|----------------|----------|---------|----------------|
+| **Microsoft Certified: Azure Administrator Associate (AZ-104)** | Microsoft | Feb 2023 | I615-7878 |
+| **Microsoft Certified: Azure Fundamentals (AZ-900)** | Microsoft | May 2021 | H832-2982 |
+| **Google Data Analytics Professional Certificate** | Google / Coursera | Aug 2022 | [Verify ✅](https://coursera.org/verify/professional-cert/2TEF6N3FRH9Q) |
+| **Python Essential Training** | LinkedIn Learning | Aug 2022 | AY0h9M56Mf7GgHFXt |
+| **Learning Excel: Data Analysis** | LinkedIn Learning | Aug 2022 | ASk3ZpOKzHvf |
+| **System Administration: Backup & Recovery** | LinkedIn Learning | Aug 2022 | AX4mg9tGRh43R674 |
+| **Custom Reports in Google Analytics** | Coursera | Jul 2022 | [Verify ✅](https://coursera.org/verify/H2BQKF2TE9T6) |
+| **Getting Started in Google Analytics** | Coursera | Jul 2022 | [Verify ✅](https://coursera.org/verify/WPS78FY6RMCP) |
+| **Tableau for Data Science** | Ongoing 🔄 | 2024 | — |
+| **AWS Cloud Practitioner** | Amazon | — | — |
+| **Google: Technical Support Fundamentals** | Google | — | — |
 
 </div>
 
-> **Microsoft AZ-104** — Certification Number: I615-7878 · Signed by Satya Nadella, CEO Microsoft
-> **Microsoft AZ-900** — Certification Number: H832-2982 · Signed by Satya Nadella, CEO Microsoft
-> **Google Data Analytics** — 8-course professional programme · Verify: [coursera.org/verify/professional-cert/2TEF6N3FRH9Q](https://coursera.org/verify/professional-cert/2TEF6N3FRH9Q)
+> 🔷 Both Microsoft Azure certificates were signed by **Satya Nadella, CEO of Microsoft**
 
 ---
 
@@ -211,7 +206,6 @@ me.say_hi()
 ![Azure](https://img.shields.io/badge/Azure-0072C6?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-FDEE21?style=for-the-badge&logo=apachespark&logoColor=black)
 ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-117AC9?style=for-the-badge&logo=WordPress&logoColor=white)
 
 **Tools & Platforms**
 
@@ -221,8 +215,10 @@ me.say_hi()
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![nVIDIA](https://img.shields.io/badge/nVIDIA-76B900?style=for-the-badge&logo=nVIDIA&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
 ![mlflow](https://img.shields.io/badge/mlflow-d9ead3?style=for-the-badge&logo=numpy&logoColor=blue)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
+![Ubisoft](https://img.shields.io/badge/Ubisoft-F5F5F5?style=for-the-badge&logo=Ubisoft&logoColor=black)
+![Meta](https://img.shields.io/badge/Meta-0467DF?style=for-the-badge&logo=Meta&logoColor=white)
 
 </div>
 
@@ -249,25 +245,10 @@ me.say_hi()
 
 - 🔭 **Currently:** Predictive maintenance & SQL pipelines for jet engine datasets at Rolls-Royce
 - 🌱 **Learning:** Advanced ML, Cloud Data Engineering, Azure & PySpark, Tableau
-- 👯 **Open to:** Data Engineering, ML, AI, analytics collaborations
-- 🤝 **Looking for help with:** Scaling ML models, cloud-based AI on Azure & Spark
-- 💬 **Ask me about:** Python, SQL, Machine Learning, Power BI, EEG classification, predictive maintenance
-- ⚡ **Fun fact:** I transform raw complex datasets into real-world AI solutions that improve jet engine performance!
-
----
-
-## 🧠 Core Competencies
-
-```
-Machine Learning      ████████████████████  Expert
-Deep Neural Networks  ████████████████░░░░  Advanced
-Python                ████████████████████  Expert
-SQL                   ███████████████████░  Advanced
-Azure Cloud           █████████████████░░░  Advanced
-Power BI              ████████████████░░░░  Advanced
-Big Data / Spark      ██████████████░░░░░░  Intermediate
-Natural Language      ████████████░░░░░░░░  Intermediate
-```
+- 👯 **Looking to collaborate on:** Data Engineering, ML, AI, and analytics projects
+- 🤝 **Looking for help with:** Scaling ML models and cloud-based AI on Azure & Spark
+- 💬 **Ask me about:** Python, SQL, Machine Learning, Power BI, EEG classification, predictive analytics
+- ⚡ **Fun fact:** I enjoy transforming raw complex datasets into actionable insights that improve real-world engineering systems!
 
 ---
 
