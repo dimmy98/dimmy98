@@ -47,7 +47,7 @@
 
 ### 🏥 Project 1 — Developing & Evaluating ML for HealthCare
 [![Repo](https://img.shields.io/badge/GitHub-Repo-2DD4BF?style=for-the-badge&logo=github)](https://github.com/dimmy98/Developing-Evaluating-ML-for-HealthCare)
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-2DD4BF?style=for-the-badge)](file:///C:/Users/Dimmy/Downloads/Dhiman%20Kumar%20Dissertation%20Project/Health%20Care%20Analysis%20Data%20Pipeline/index.html)
+[![Live Demo]((https://img.shields.io/badge/Dashboard-Live-2dd4bf?style=flat-square)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 
 </div>
 
