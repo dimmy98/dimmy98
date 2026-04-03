@@ -240,7 +240,7 @@
 
 <div align="center">
 
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=dimmy98&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com/?user=dimmy98)](https://git.io/streak-stats)
 
 </div>
 
