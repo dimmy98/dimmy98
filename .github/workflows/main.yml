@@ -16,18 +16,28 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Generate snake SVG from contribution graph
+      - name: Generate snake
         uses: Platane/snk@master
         with:
           github_user_name: dimmy98
-          outputs: dist/github-contribution-grid-snake.gif|dist/github-contribution-grid-snake.svg
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - name: Push generated files to output branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist
-          publish_branch: output
+      - name: Configure git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+      - name: Push to output branch
+        run: |
+          git fetch origin
+          git checkout output 2>/dev/null || git checkout -b output
+          cp dist/github-contribution-grid-snake.gif ./
+          cp dist/github-contribution-grid-snake.svg ./
+          git add github-contribution-grid-snake.gif github-contribution-grid-snake.svg
+          git commit -m "🐍 Update snake animation" --allow-empty
+          git push origin output
