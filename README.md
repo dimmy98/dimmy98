@@ -16,14 +16,6 @@
 
 </div>
 
-## 🎯 3D Contribution Graph
-
-<div align="center">
-
-![](./profile-3d-contrib/profile-night-rainbow.svg)
-
-</div>
-
 ---
 
 ## 👨‍💻 About Me
@@ -266,7 +258,10 @@
 [![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dimmy98&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
-
+---
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" />
+</div>
 ---
 
 ## 🐍 My Contributions Snake
