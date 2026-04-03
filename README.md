@@ -16,6 +16,14 @@
 
 </div>
 
+## 🎯 3D Contribution Graph
+
+<div align="center">
+
+![](./profile-3d-contrib/profile-night-rainbow.svg)
+
+</div>
+
 ---
 
 ## 👨‍💻 About Me
@@ -296,15 +304,5 @@
 [![](https://visitcount.itsvg.in/api?id=dimmy98&icon=0&color=0)](https://visitcount.itsvg.in)
 
 *Proudly built with data, curiosity, and a lot of Python ☕*
-
-</div>
-
-## 📊 Coding Metrics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=dimmy98&theme=tokyonight&hide_border=true&layout=compact" />
-
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=dimmy98&repo=Developing-Evaluating-ML-for-HealthCare&theme=tokyonight&hide_border=true" />
 
 </div>
