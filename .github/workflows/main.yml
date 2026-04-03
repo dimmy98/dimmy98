@@ -2,43 +2,32 @@ name: Generate Snake
 
 on:
   schedule:
-    # Generates a new snake animation every 6 hours
     - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  build-snake:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: Platane/snk@master
-        id: snake-gif
+      - name: Generate snake SVG from contribution graph
+        uses: Platane/snk@master
         with:
           github_user_name: dimmy98
-          outputs: |
-            dist/github-contribution-grid-snake.gif?palette=github-dark
-            dist/github-contribution-grid-snake.svg?palette=github-dark
-          
-      - uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-          commit_message: "Generate Contribution Snake"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          outputs: dist/github-contribution-grid-snake.gif|dist/github-contribution-grid-snake.svg
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Push generated files to output branch
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: output
-          force: true
+          publish_dir: dist
+          publish_branch: output
