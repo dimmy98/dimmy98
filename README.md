@@ -233,8 +233,7 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=dimmy98&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dimmy98&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact"/>
+username=dimmy98&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact"/>
 
 </div>
 
