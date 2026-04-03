@@ -264,7 +264,7 @@
 ## 🐍 My Contributions Snake
 <div align="center">
 
-![snake gif](https://github.com/dimmy98/dimmy98/raw/output/github-contribution-grid-snake.gif)
+[![snake gif](https://github.com/dimmy98/dimmy98/raw/output/github-contribution-grid-snake.gif)](https://github.com/dimmy98/dimmy98/raw/output/github-contribution-grid-snake.gif)
 
 </div>
 
