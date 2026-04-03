@@ -7,7 +7,6 @@
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhiman-kumar)
-[![Portfolio](https://img.shields.io/badge/ML%20Portfolio-2DD4BF?style=for-the-badge&logo=github&logoColor=white)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhimankumar98@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/dhiman._.k)
 
@@ -48,7 +47,7 @@
 
 ### 🏥 Project 1 — Developing & Evaluating ML for HealthCare
 [![Repo](https://img.shields.io/badge/GitHub-Repo-2DD4BF?style=for-the-badge&logo=github)](https://github.com/dimmy98/Developing-Evaluating-ML-for-HealthCare)
-[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-2DD4BF?style=for-the-badge)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
+[![Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-Click%20Here-2DD4BF?style=for-the-badge)](file:///C:/Users/Dimmy/Downloads/Dhiman%20Kumar%20Dissertation%20Project/Health%20Care%20Analysis%20Data%20Pipeline/index.html)
 
 </div>
 
