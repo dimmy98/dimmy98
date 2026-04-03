@@ -7,8 +7,11 @@
 <br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhiman-kumar)
+[![Portfolio](https://img.shields.io/badge/ML%20Portfolio-2DD4BF?style=for-the-badge&logo=githubpages&logoColor=white)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhimankumar98@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/dhiman._.k)
+
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=dimmy98&label=Profile+Views&color=2dd4bf&style=flat" alt="Profile views" />
 
@@ -41,13 +44,25 @@
 
 ---
 
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=dimmy98&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
 ## 🏆 Featured Projects
 
 <div align="center">
 
 ### 🏥 Project 1 — Developing & Evaluating ML for HealthCare
+
 [![Repo](https://img.shields.io/badge/GitHub-Repo-2DD4BF?style=for-the-badge&logo=github)](https://github.com/dimmy98/Developing-Evaluating-ML-for-HealthCare)
-[![Live Dashboard](https://img.shields.io/badge/Dashboard-3DD4BF?style==flat-square)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
+[![Live Dashboard](https://img.shields.io/badge/🌐%20Live%20Dashboard-Click%20Here-2DD4BF?style=for-the-badge)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
+[![View Dashboard](https://img.shields.io/badge/📊%20View%20Dashboard-Open%20Now-20c997?style=for-the-badge)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 
 </div>
 
@@ -73,6 +88,7 @@
 <div align="center">
 
 ### 🧠 Project 2 — Harmful Brain Activity Classification
+
 [![Repo](https://img.shields.io/badge/GitHub-Code-a78bfa?style=for-the-badge&logo=github)](https://github.com/supinfl/UoS_HBAC/tree/baseline)
 
 </div>
@@ -235,6 +251,30 @@
 <div align="center">
 
 [![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=dimmy98&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=dimmy98&theme=tokyo-night&hide_border=true&area=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## 🐍 My Contributions Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dimmy98/dimmy98/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dimmy98/dimmy98/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/dimmy98/dimmy98/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
 
