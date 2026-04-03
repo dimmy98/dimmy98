@@ -231,15 +231,11 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-
-username=dimmy98&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact"/>
-
 </div>
 
 <div align="center">
 
-
+[![GitHub Streak](https://streak-stats.demolab.com/?user=dimmy98)](https://git.io/streak-stats)
 
 </div>
 
