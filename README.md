@@ -1,52 +1,89 @@
-# Hi, I'm Dhiman
+<p align="center"><img src="assets/hero.svg" alt="Dhiman Kumar — Data, with direction. Data analytics and applied machine learning." width="100%" /></p>
 
-**Data analytics · Python & SQL · Applied machine learning**
+<p align="center"><a href="https://github.com/dimmy98/Developing-Evaluating-ML-for-HealthCare"><strong>Explore my work</strong></a> &nbsp; / &nbsp; <a href="https://linkedin.com/in/dhiman-kumar">LinkedIn</a> &nbsp; / &nbsp; <a href="mailto:dhimankumar98@gmail.com">Get in touch</a></p>
 
-I'm a data analyst based in Derby, UK, with a background in software engineering and an MSc in Data Analytics from the University of Sheffield.
+## Turning data into something useful
 
-My work at Rolls-Royce Aerospace, through Expleo Group, involves maintenance data, SQL reporting and Python automation. I enjoy the practical side of working with data: checking whether it is reliable, making repetitive work easier, and explaining what the results mean.
+I'm Dhiman, a data analyst in Derby, UK. My background spans software engineering, operational analytics and an MSc in Data Analytics at the University of Sheffield.
 
-[LinkedIn](https://linkedin.com/in/dhiman-kumar) · [Email](mailto:dhimankumar98@gmail.com)
+At Rolls-Royce Aerospace, through Expleo Group, I work with maintenance data, SQL reporting and Python automation. The part I enjoy most is working through messy records until the result is something someone can trust and use.
 
-## Selected projects
+My academic projects took that curiosity into healthcare: comparing regression models for insurance charges and exploring deep learning for harmful brain activity classification.
 
-### Healthcare billing prediction
+## Two projects. Two different data challenges.
 
-My MSc dissertation explored how regression models can predict medical insurance charges. I compared a linear baseline with decision trees and gradient boosting, looking at model performance, feature importance and overfitting.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The project dashboard presents the workflow and reported results, including a best test R² of **0.8641** for gradient boosting. The repository currently contains the dashboard and Python reference code in the README.
+### 01 / Healthcare billing prediction
 
-[Explore the project](https://github.com/dimmy98/Developing-Evaluating-ML-for-HealthCare) · [Open the dashboard](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
+**Tabular data · Regression · Model evaluation**
 
-### Harmful brain activity classification
+How well can simple and ensemble models explain variation in medical insurance charges?
 
-A University of Sheffield team project for the HMS Kaggle competition, exploring deep learning for EEG classification. Our work examined spectrogram inputs, EfficientNet models and two-stage training.
+My MSc dissertation compared linear regression, a tuned decision tree and gradient boosting. The dashboard walks through the workflow, model comparisons and feature analysis.
 
-The team repository includes training notebooks, inference code and experiment records.
+**Reported best test R²: 0.8641**
 
-[View the team repository](https://github.com/supinfl/UoS_HBAC/tree/baseline)
+[Explore the repository →](https://github.com/dimmy98/Developing-Evaluating-ML-for-HealthCare)
 
-## What I work with
+[Open the interactive dashboard →](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 
-| Area | Tools |
-| :--- | :--- |
-| Data analysis | Python, SQL, pandas, NumPy, R |
-| Machine learning | scikit-learn, PyTorch, TensorFlow |
-| Reporting | Power BI, Matplotlib, Jupyter |
-| Data platforms | Microsoft Azure, Azure Synapse, Spark |
-| Development | Git, GitHub, VS Code |
+[Read the case study →](case-studies/healthcare.md)
 
-## Background
+</td>
+<td width="50%" valign="top">
 
-- **Data Analyst · Rolls-Royce Aerospace, via Expleo Group** — SQL, data validation, operational reporting and Python automation.
-- **Data Engineer Apprentice · Makutu.io** — Power BI reporting and data workflows using Python and Azure Synapse.
-- **AI / ML & Speech Intern · University of Sheffield** — speech-model evaluation using the SUPERB benchmark and s3prl.
-- **Intermediate Software Engineer · DXC Technology** — backup and recovery, VMware environments and operational support.
+### 02 / Harmful brain activity
 
-I completed my **MSc in Data Analytics at the University of Sheffield in 2024, with Merit**. My studies covered healthcare machine learning, EEG classification and speech processing.
+**EEG · Deep learning · Team research**
 
-## Interests
+How can spectrograms and neural networks help classify harmful brain activity?
 
-I'm interested in predictive maintenance, reliable data pipelines and applied machine learning. I like projects where the analysis leads to something useful, whether that is a clearer report, a better workflow or a model whose limitations are understood.
+A University of Sheffield team project for the HMS Kaggle competition, exploring EfficientNet models, different input representations and two-stage training.
 
-If you're working on a related project, feel free to [get in touch](mailto:dhimankumar98@gmail.com).
+**Training notebooks + inference code**
+
+[Explore the team repository →](https://github.com/supinfl/UoS_HBAC/tree/baseline)
+
+[Read the case study →](case-studies/brain-activity.md)
+
+</td>
+</tr>
+</table>
+
+## Where my experience connects
+
+| Focus | What that means in my work | Tools |
+| :--- | :--- | :--- |
+| **Reliable data** | Validate records, investigate inconsistencies and prepare data for reporting | Python, SQL, pandas, NumPy |
+| **Useful reporting** | Make operational information easier to understand and act on | Power BI, Matplotlib, Jupyter |
+| **Applied ML** | Compare baselines, examine errors and explain evaluation limits | scikit-learn, PyTorch, TensorFlow |
+| **Data workflows** | Connect extraction, transformation and reporting steps | Azure, Azure Synapse, Spark, Git |
+
+## The path so far
+
+**Data Analyst · Rolls-Royce Aerospace, via Expleo Group**  
+Maintenance data, validation, SQL reporting and Python automation.
+
+**Data Engineer Apprentice · Makutu.io**  
+Power BI dashboards and data workflows with Python and Azure Synapse.
+
+**AI / ML & Speech Intern · University of Sheffield**  
+Speech-model evaluation with the SUPERB benchmark and s3prl.
+
+**Intermediate Software Engineer · DXC Technology**  
+Backup and recovery, VMware environments and operational support.
+
+**MSc Data Analytics · University of Sheffield · 2024 · Merit**
+
+## What I'd like to explore next
+
+Predictive maintenance, better data validation and machine learning that holds up beyond a single experiment. I’m particularly interested in the point where a useful analysis becomes a dependable workflow.
+
+If you work with engineering data, healthcare ML or practical analytics, I'd be happy to [connect](https://linkedin.com/in/dhiman-kumar).
+
+---
+
+<p align="center"><sub>Good data work starts with a clear question — and ends with something useful.</sub></p>
