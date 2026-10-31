@@ -54,6 +54,8 @@
 [![Live Dashboard](https://img.shields.io/badge/🌐%20Live%20Dashboard-Click%20Here-2DD4BF?style=for-the-badge)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 [![View Dashboard](https://img.shields.io/badge/📊%20View%20Dashboard-Open%20Now-20c997?style=for-the-badge)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/)
 
+[![Open Living Hangar](https://img.shields.io/badge/%E2%9C%88%20Living%20Hangar-Open%20Website-FBBF24?style=for-the-badge)](https://dimmy98.github.io/Developing-Evaluating-ML-for-HealthCare/hangar/)
+
 </div>
 
 > **MSc Dissertation — University of Sheffield (Feb 2024 – Aug 2024)**
